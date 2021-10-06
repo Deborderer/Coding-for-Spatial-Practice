@@ -1,3 +1,30 @@
-body{
-    background: tomato;
+/* this is the reset to remove html element styling */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+.container{
+    background-color: lemonchiffon;
+    height: 100%;
+}
+
+header {
+    background-color: lightskyblue;
+    height: 20%;
+}
+
+nav, footer {
+    background-color: bisque;
+    height: 10%;
+}
+
+main {
+    background-color: coral;
+    height: 60%;
 }
