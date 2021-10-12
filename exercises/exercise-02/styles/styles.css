@@ -36,6 +36,7 @@ header {
 
 footer{
         text-align: right;
+        color: lightgrey;
         font-size: 20px;
 }
 aside{
@@ -50,5 +51,5 @@ aside{
     }
 h3{
         text-align:right;
-        
+
 }
