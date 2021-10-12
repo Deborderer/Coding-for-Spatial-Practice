@@ -20,15 +20,13 @@ html, body{
 
 header {
     padding: 15px;
-    font-size: 50px;
-   
+    font-size: 50px;   
     background-color: lightskyblue;
     height: 20%;
 }
 
 nav, footer {
     padding: 15px;
-
     font-size: 50px;
     background-color: bisque;
     height: 10%;
@@ -36,7 +34,6 @@ nav, footer {
 
 main {
     padding: 15px;
-
     font-size: 50px;
     background-color: whitesmoke;
     height: 60%;
@@ -44,7 +41,6 @@ main {
 
 aside{
     padding: 15px;
-
     margin: 1%;
     height: 92%;
     width:20%;
@@ -54,7 +50,6 @@ aside{
 
 section{
     padding: 15px;
-
     font-size: 50px;
     margin: 1%;
     height: 92%;
