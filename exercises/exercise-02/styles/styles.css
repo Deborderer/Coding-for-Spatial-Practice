@@ -39,17 +39,24 @@ footer{
         color: lightgrey;
         font-size: 20px;
 }
+body{
+        align-content: center;
+}
 aside{
         font-size: 25px;
         color: rgb(255, 0, 106);
-        margin-bottom: 25px;
+        margin: 10px auto;       
         width: auto;
-        height: 80%;
+        height: auto;
         background-color: lightgray;
-        display: inline-block;
-        align-self: top;
+
     }
 h3{
         text-align:right;
 
+}
+@media (max-width: 800px) {
+        *{
+                background: rgb(136, 255, 0);
+        }
 }
