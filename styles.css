@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+nav{
+    height: 60px;
+}
+.container{
+    display:flex;
+    justify-content: space-around;
+    list-style: none;
+    background: #ff007a;
+    line-height: 60px;
+}
+.container a{
+    text-decoration: none;
+    color: white;
+    font-family: "open Sans", sans-serif;
+    font-weight: bolder;
+}
+li{
+    padding:0 40px;
+}
+li:hover{
+    animation: changeMe 1s ease-in-out .1s;
+}
+
+@keyframes changeMe{
+    0%{
+        background: #ff007a;
+        transform: scale(0.8);
+    }
+
+    33%{
+        background: #d8026a;
+    }
+
+    66%{
+        background: #a1004e;
+        transform: scale(1.2);
+    }
+
+    100%{
+        background: #ff007a;
+    }
+}
