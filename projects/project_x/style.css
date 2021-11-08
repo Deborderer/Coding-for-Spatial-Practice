@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans&display=swap");
+
+html, body{
+    height: 100%;
+    
+}
+.container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color:black;
+ 
+}
+a, a:active, a:visited{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 40px;
+    transition: font-size 0.5s ease, color 0.5s ease;
+}
+a:hover{
+    text-decoration: none;
+    color:rgb(0, 255, 149);
+    font-size: 45px;
+}
+.circle{
+    display: flex;
+    margin: auto;
+    font-family: "roboto";
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: rgb(255, 196, 0);
+    transition: font-size 0.5s ease, background-color 0.5s ease,color 0.5s ease, transform 0.3s ease;
+}
+.circle:hover{
+    transform: scale(1.1);
+    display: flex;
+    margin: auto;
+    font-family: "roboto";
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: rgb(255, 0, 140);
+    
+}
+.circle:active{
+    transform: scale(0.5);
+    
+}
+body {
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+}

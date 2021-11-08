@@ -1,37 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
 }
 nav{
-    height: 60px;
+
+    height: 25px;
 }
 .container{
     display:flex;
     justify-content: space-around;
     list-style: none;
     background: #ff007a;
-    line-height: 60px;
+    line-height: 25px;
 }
 .container a{
     text-decoration: none;
     color: white;
-    font-family: "open Sans", sans-serif;
-    font-weight: bolder;
-}
-h a{
-    text-decoration: none;
-    color: rgb(255, 136, 0);
     font-family: "roboto";
     font-weight: bolder;
-    font-size: 50px;
-    transition: font-size 0.3s ease;
-}
-h a:hover{
-    font-size: 70px;
-}
-h a:active{
-    font-size: 30px;
 }
 li{
     padding:0 40px;
@@ -58,4 +46,30 @@ li:hover{
     100%{
         background: #ff007a;
     }
+}
+
+p{
+ font-family: "roboto";
+ font-size: 200px;
+ position: flex;
+ text-align: center;
+ color: lightgray;
+}
+
+h a{
+  text-decoration: none;
+  font-family: "roboto";
+  color: #ff007a;
+  font-size: 100px;
+  font-weight: bolder;
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  transition: transform 0.3s ease-in-out;
+}
+h a:hover{
+  transform: scale(1.3);
+}
+h a:active{
+  transform: scale(0.3);
 }
