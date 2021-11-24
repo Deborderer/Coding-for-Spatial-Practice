@@ -1,0 +1,14 @@
+button{
+    background-color: green;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: 25px;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+p {
+    color: green;
+    font-size: 50px;
+  }
