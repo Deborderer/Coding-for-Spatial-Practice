@@ -3,6 +3,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    background-color: black;
 }
 nav{
 
@@ -50,10 +51,11 @@ li:hover{
 
 p{
  font-family: "roboto";
- font-size: 200px;
+ font-size: 100px;
+ font-weight:bolder;
  position: flex;
  text-align: center;
- color: lightgray;
+ color: rgb(166, 255, 0);
 }
 
 h a{
