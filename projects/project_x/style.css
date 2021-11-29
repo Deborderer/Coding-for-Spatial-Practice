@@ -23,6 +23,8 @@ a:hover{
     color:rgb(0, 255, 149);
     font-size: 45px;
 }
+
+
 .circle{
     display: flex;
     margin: auto;
