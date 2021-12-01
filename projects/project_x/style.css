@@ -13,14 +13,14 @@ html, body{
 }
 a, a:active, a:visited{
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
     font-weight: bolder;
     font-size: 30px;
     transition: font-size 0.5s ease, color 0.5s ease;
 }
 a:hover{
     text-decoration: none;
-    color:rgb(0, 255, 149);
+    color:rgb(0, 0, 0);
     font-size: 45px;
 }
 
@@ -61,7 +61,7 @@ a:hover{
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    background: rgb(255, 0, 140);
+    background: rgb(255, 51, 0);
     
 }
 .circle:active{
