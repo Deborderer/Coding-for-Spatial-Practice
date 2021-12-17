@@ -19,6 +19,12 @@ nav{
     font-family: "open Sans", sans-serif;
     font-weight: bolder;
 }
+h1{
+    font-size: 100px;
+    font-family: "roboto";
+    font-weight: bold;
+    color:#ff007a;
+}
 h a{
     text-decoration: none;
     color: rgb(255, 136, 0);
@@ -39,6 +45,16 @@ li{
 li:hover{
     animation: changeMe 1s ease-in-out .1s;
 }
+
+p a{
+    text-decoration: none;
+    font-family: "roboto";
+    font-size: 20px;
+}
+p a:visited{
+    text-decoration: none;
+}
+
 
 @keyframes changeMe{
     0%{
