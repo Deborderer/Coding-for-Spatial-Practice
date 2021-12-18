@@ -1,29 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
 }
-nav{
-    height: 60px;
-}
-.container{
-    display:flex;
-    justify-content: space-around;
-    list-style: none;
-    background: #ff007a;
-    line-height: 60px;
-}
-.container a{
-    text-decoration: none;
-    color: white;
-    font-family: "open Sans", sans-serif;
-    font-weight: bolder;
-}
+
+
 h1{
     font-size: 100px;
     font-family: "roboto";
     font-weight: bold;
     color:#ff007a;
+}
+h2{
+    font-family: "Roboto";
+    Font-size: 30px;
+    font-weight: bold;
+    color: black;
 }
 h a{
     text-decoration: none;
@@ -33,28 +26,36 @@ h a{
     font-size: 50px;
     transition: font-size 0.3s ease;
 }
+
 h a:hover{
     font-size: 70px;
 }
 h a:active{
     font-size: 30px;
 }
-li{
-    padding:0 40px;
-}
-li:hover{
-    animation: changeMe 1s ease-in-out .1s;
-}
+
 
 p a{
     text-decoration: none;
-    font-family: "roboto";
+    align-self: center;
+    font-family: "Roboto";
     font-size: 20px;
+    transition: all 0.5s;
+    color: rgb(83, 83, 83);
+}
+p a:link{
+    text-decoration: none;
 }
 p a:visited{
     text-decoration: none;
 }
-
+p a:active{
+    text-decoration: none;
+}
+p a:hover{
+    font-size: 40px;
+    font-weight: bolder;
+}
 
 @keyframes changeMe{
     0%{

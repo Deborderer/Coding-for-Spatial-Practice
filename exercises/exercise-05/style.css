@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width:80%;
+    height: 100%;
+    font-size: 10px;
+    }
+
+    h1{
+        text-align: center;
+        font-weight: bolder;
+    }
+    h3{
+        font-weight: bolder;
+    }
+    h4{
+        text-align: right;
+    }
+body {
+
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+@media (min-width: 500px){
+
+    .container{
+        color: rgb(255, 0, 76);
+        background: rgb(208, 255, 0);
+    }
+    h1{
+        
+        font-size:2.0em;
+    }
+}
+@media (min-width: 1000px){
+    .container{
+        color: rgb(157, 255, 0);
+        background: rgb(0, 183, 255);
+    }
+    h1{
+        font-size: 4.0em;
+    }
+}
+@media (min-width: 1500px){
+    .container{
+        color: rgb(0, 0, 0);
+        background: rgb(255, 196, 0);
+    }
+    h1{
+        font-size: 7.0em;
+    }
+}

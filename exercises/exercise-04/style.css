@@ -32,13 +32,3 @@ body {
 
 }
 
-@media (min-width: 1000px){
-    .container{
-        background: rgb(0, 183, 255);
-    }
-}
-@media (min-width: 1500px){
-    .container{
-        background: rgb(255, 196, 0);
-    }
-}
