@@ -43,16 +43,16 @@ p a{
     transition: all 0.5s;
     color: rgb(83, 83, 83);
 }
-p a:link{
+p:link{
     text-decoration: none;
 }
-p a:visited{
+p:visited{
     text-decoration: none;
 }
-p a:active{
+p:active{
     text-decoration: none;
 }
-p a:hover{
+p:hover{
     font-size: 40px;
     font-weight: bolder;
 }
