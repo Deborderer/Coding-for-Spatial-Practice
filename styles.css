@@ -8,6 +8,9 @@ html, body{
     animation: Fade 1.0s ease-in-out 0.0s;
     
   }
+  body{
+      padding: 2vw;
+  }
   
   @keyframes Fade{
     0%{
@@ -22,7 +25,7 @@ html, body{
 
 
 h1{
-    font-size: 100px;
+    font-size: 5vw;
     font-family: "Roboto";
     font-weight: bold;
     color:#ff007a;
@@ -33,32 +36,35 @@ h1:hover{
 }
 h2{
     font-family: "Roboto";
-    Font-size: 30px;
+    Font-size: 1vw;
     font-weight: bold;
     color: black;
 }
 h a{
+    padding: 0.2vw;
     text-decoration: none;
     color: #ff007a;
     font-family: "Roboto";
-    font-weight: bolder;
-    font-size: 20px;
-    transition: font-size 0.3s ease;
+    font-size: 0.6vw;
+    transition: all 0.3s ease;
 }
 
 h a:hover{
-    font-size: 40px;
+    font-size: 0.8vw;
+    font-weight: bolder;
 }
 h a:active{
-    font-size: 15px;
+    font-size: 0.4vw;
 }
 
-
+p{
+    padding: 0.2vw;
+}
 p a{
     text-decoration: none;
     align-self: center;
     font-family: "Roboto";
-    font-size: 20px;
+    font-size: 0.6vw;
     transition: all 0.5s;
     color: rgb(83, 83, 83);
 }
@@ -72,7 +78,7 @@ p a:active{
     text-decoration: none;
 }
 p a:hover{
-    font-size: 30px;
+    font-size: 0.8vw;
     font-weight: bolder;
 }
 
@@ -94,4 +100,14 @@ p a:hover{
     100%{
         background: #ff007a;
     }
+}
+
+h3{
+    font-weight: bold;
+    font-size: 0.5vw;
+    font-family: "Roboto";
+    position:absolute;
+    text-align: right;
+    right:2vw;
+    bottom: 1vw;
 }
