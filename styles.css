@@ -4,13 +4,32 @@
     padding:0;
     box-sizing: border-box;
 }
- 
+html, body{
+    animation: Fade 1.0s ease-in-out 0.0s;
+    
+  }
+  
+  @keyframes Fade{
+    0%{
+        opacity: 0.0;
+    }
+   
+    100%{
+        opacity: 1.0;
+    }
+  }
+  
+
 
 h1{
     font-size: 100px;
     font-family: "Roboto";
     font-weight: bold;
     color:#ff007a;
+    transition: all 0.4s;
+}
+h1:hover{
+    color: black;
 }
 h2{
     font-family: "Roboto";
@@ -20,18 +39,18 @@ h2{
 }
 h a{
     text-decoration: none;
-    color: rgb(255, 136, 0);
+    color: #ff007a;
     font-family: "Roboto";
     font-weight: bolder;
-    font-size: 50px;
+    font-size: 20px;
     transition: font-size 0.3s ease;
 }
 
 h a:hover{
-    font-size: 70px;
+    font-size: 40px;
 }
 h a:active{
-    font-size: 30px;
+    font-size: 15px;
 }
 
 
@@ -53,7 +72,7 @@ p a:active{
     text-decoration: none;
 }
 p a:hover{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bolder;
 }
 

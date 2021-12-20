@@ -1,15 +1,27 @@
  console.log('it works')
 
- let nouns = ["heart", "rainbow", "ocean"];
- let verbs = ["look", "make", "continue"];
- let adjectives = ["good", "different", "possible"];
+ var verbs, nouns, adjectives;
 
+nouns = ["heart", "rainbow", "ocean"];
+verbs = ["look", "make", "continue"];
+adjectives = ["good", "different", "possible"];
 
-let noun = nouns[Math.floor(Math.random() * nouns.length)];
-let verb = verbs[Math.floor(Math.random() * verbs.length)];
-let adjective = adjectives[Math.floor(Math.random() * adjectives.length)];
+function randomGen(){
+    return Math.floor(Math.random() * 3);
+}
 
+function sentence() {
+    
+var noun, verb, adjective, text;
 
-let sentence = `My ${noun} leaps ${adjectives} when I ${verb} a rainbow in the sky.`;
+noun = nouns[Math.floor(Math.random() * nouns.length)];
+verb = verbs[Math.floor(Math.random() * verbs.length)];
+adjective = adjectives[Math.floor(Math.random() * adjectives.length)];
 
+text = `My ${noun} leaps ${adjectives} when I ${verb} a rainbow in the sky.`;
+
+document.getElementById('sentence').innerHTML = text;
+
+}
 console.log(sentence);
+sentence();
